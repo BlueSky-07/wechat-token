@@ -8,6 +8,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: ./build.sh
-      - run: ./run.sh
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Docker Image
+        run: ./build.sh
+      - name: Generate "extspam"
+        run: ./run.sh > extspam.txt
+      - name: Store as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: extspam.txt
+          path: extspam.txt
+      - name: Output Result
+        run: cat extspam.txt
