@@ -1,14 +1,14 @@
 # wechat-token
 
-## Ussage
+## Usage
+
+You can generate one by run this command locally (`Docker` required):
 
 ```bash
-# clone this repo
-git clone https://github.com/BlueSky-07/wechat-token --depth=1
-
-# generate token
-./run.sh
+docker run --rm ghcr.io/bluesky-07/wechat-token:latest
 ```
+
+Or copy one from section [#Github Actions](#github-actions)
 
 ## How to login Web-Wechat
 

@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build Docker Image
-        run: ./build.sh
       - name: Generate "extspam"
         run: ./run.sh > extspam.txt
       - name: Store as Artifact
