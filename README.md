@@ -23,7 +23,7 @@ Or copy one from section [#Github Actions](#github-actions)
 
 visit [Actions](https://github.com/BlueSky-07/wechat-token/actions) and view latest runner output to get generated `extspam`
 
-***Note: Github Actions logs and artficts will keep in 24 hours***
+***Note: Github Actions logs and artifacts will keep in 24 hours***
 
 ![actions_1](doc/actions_1.png)
 ![actions_2](doc/actions_2.png)
