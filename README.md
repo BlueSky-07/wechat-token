@@ -1,5 +1,9 @@
 # wechat-token
 
+# NOT WORKING!
+
+<del>
+
 ## Usage
 
 You can generate one by run this command locally (`Docker` required):
@@ -7,8 +11,6 @@ You can generate one by run this command locally (`Docker` required):
 ```bash
 docker run --rm ghcr.io/bluesky-07/wechat-token:latest
 ```
-
-Or copy one from section [#Github Actions](#github-actions)
 
 ## How to login Web-Wechat
 
@@ -19,15 +21,7 @@ Or copy one from section [#Github Actions](#github-actions)
 5. visit [https://wx.qq.com/?target=t](https://wx.qq.com/?target=t)
 6. scan QRcode to login
 
-## Github Actions
-
-visit [Actions](https://github.com/BlueSky-07/wechat-token/actions) and view latest runner output to get generated `extspam`
-
-***Note: Github Actions logs and artifacts will keep in 24 hours***
-
-![actions_1](doc/actions_1.png)
-![actions_2](doc/actions_2.png)
-![actions_3](doc/actions_3.png)
+</del>
 
 ## Acknowledgements
 
